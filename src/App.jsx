@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Nav from "./components/Nav";
+import PortfolioPage from "./pages/PortfolioPage";
 
 export default function App() {
     return (
