@@ -8,6 +8,7 @@ export default function App() {
             <Nav/>
             <Routes>
                 <Route path='/' element={<HomePage/>}/>
+                <Route path='/portfolio' element={<PortfolioPage/>}/>
             </Routes>
         </BrowserRouter>
     )
