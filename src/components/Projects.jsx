@@ -1,7 +1,9 @@
+import SectionHeading from "./atoms/SectionHeading";
+
 export default function() {
     return (
         <>
-        <h2>Projects</h2>
+        <SectionHeading text={'Projects'}/>
         </>
     )
 }
