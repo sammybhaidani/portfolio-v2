@@ -5,9 +5,7 @@ export default function Nav() {
         <nav>
             <ul>
                 <li><NavItem text={'Home'} address={'/'}/></li>
-                <li><a href="/portfolio#about">About</a></li>
-                <li><a href="/portfolio#projects">Projects</a></li>
-                <li><a href="/portfolio#contact">Contact</a></li>
+                <li><NavItem text={'About'} address={'/portfolio#about'}/></li>
             </ul>
         </nav>
     )
