@@ -4,8 +4,8 @@ export default function Nav() {
     return (
         <nav>
             <ul className="flex gap-3">
-                <li><NavItem text={'Home'} address={'/'}/></li>
-                <li><NavItem text={'About'} address={'/portfolio#about'}/></li>
+                <li><NavItem text={'Home'} address={'#home'}/></li>
+                <li><NavItem text={'About'} address={'#about'}/></li>
             </ul>
         </nav>
     )
