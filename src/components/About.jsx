@@ -5,9 +5,9 @@ export default function About() {
         <div>
             <SectionHeading text={'About'}/>
             <p>
-                I'm a developer, passionate about building engaging experiences for the web.
-                Crafting a seamless user experience that involves great design and is well optimised 
-                for performance is one of my favourite parts of development.
+                I'm a developer, passionate about building engaging, interactive experiences for the web.
+                I love crafting seamless user experiences that combine thoughtful design with strong performance. Building fast, accessible and well designed applications is
+                one of my favourite parts of development.
             </p>
         </div>
     )
