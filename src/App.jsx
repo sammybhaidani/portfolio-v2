@@ -1,11 +1,16 @@
 import HomePage from "./pages/HomePage";
-import Nav from "./components/Nav";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NotFoundPage from "./pages/NotFoundPage";
 
 export default function App() {
     return (
         <>
-        <Nav/>
-        <HomePage/>
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<HomePage/>}/>
+                <Route path="*" element={<NotFoundPage/>}/>
+            </Routes>
+        </BrowserRouter>
         </>         
     )
 }
