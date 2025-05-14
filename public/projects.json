@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Quizzer Backend API",
+      "description": "Built and implemented a robust RESTful API to be consumed by React front end for managing quizzes allowing users to create, update and deleted quiz content.",
+      "image": "/images/quizzer.png",
+      "alt": "Home page of a quiz application showing all of the created quizzes",
+      "link": "https://github.com/iO-Academy/2025-jan-sde-quiz-event-listeners",
+      "demo": "https://2025-event-listeners-quiz-fe.dev.io-academy.uk/",
+      "technologies": ["Laravel", "PHP", "MySQL"]
+    },
+    {
+      "id": 2,
+      "title": "Blogger",
+      "description": "Blogger is a multi-user blog application where users can log in, view and publish posts.",
+      "image": "/images/blog.png",
+      "alt": "Home page of a blog website showing all available blogs",
+      "link": "https://github.com/iO-Academy/2025-jan-sde-blog-sql-phpangolins",
+      "demo": "https://2025-phpangolins-blog.dev.io-academy.uk/",
+      "technologies": ["HTML", "TailwindCSS", "PHP", "MySQL"]
+    },
+    {
+      "id": 3,
+      "title": "BookSwap",
+      "description": "Book Swap is a website that manages a communal bookshelf. Users can view and borrow books as well as return them.",
+      "image": "/images/bookswap.png",
+      "alt": "Home page of a online bookshelf showing all available books that can be claimed",
+      "link": "https://github.com/iO-Academy/2025-jan-okapis-bookswap-fe",
+      "demo": "https://2025-okapis-bookswap.dev.io-academy.uk/",
+      "technologies": ["TailwindCSS", "JavaScript", "React", "PHP"]
+    }
+  ]
+}
